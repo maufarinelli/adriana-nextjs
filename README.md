@@ -1,0 +1,1 @@
+Adriana Website Frontend part, using NextJS
