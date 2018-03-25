@@ -4,7 +4,9 @@
   "description": "NextJS app to Adriana Ferreira's website",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "isomorphic-unfetch": "^2.0.0",
+    "lodash": "^4.17.5",
     "next": "^5.0.0",
     "node-fetch": "^2.1.1",
     "react": "^16.2.0",
@@ -13,9 +15,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "test",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next src --inspect",
+    "build": "next build src",
+    "start": "next start src"
   },
   "author": "Mauricio Farinelli",
   "license": "ISC"
